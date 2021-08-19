@@ -1,0 +1,2 @@
+rootProject.name = "MVVM_Architecture_Practice_App"
+include ':app'
