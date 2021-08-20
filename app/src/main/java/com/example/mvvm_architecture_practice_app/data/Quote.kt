@@ -1,3 +1,10 @@
 package com.example.mvvm_architecture_practice_app.data
-
-data class Quote()
+//MODEL
+data class Quote(
+    val quoteText: String,
+    val author: String
+){
+    override fun toString(): String {
+     return "$quoteText|$author"
+    }
+}
